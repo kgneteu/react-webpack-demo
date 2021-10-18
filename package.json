@@ -1,0 +1,44 @@
+{
+  "name": "react-webpack-demo",
+  "version": "1.0.0",
+  "description": "Using Webpack with React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "start-alt": "webpack-dev-server --config webpack.config.js --mode=development",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-stage-2": "^7.8.3",
+    "autoprefixer": "^10.3.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-named-asset-import": "^0.3.7",
+    "babel-preset-react-app": "^10.0.0",
+    "css-loader": "^6.4.0",
+    "eslint": "^7.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.26.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "postcss-loader": "^6.2.0",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-safe-parser": "^6.0.0",
+    "style-loader": "^3.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
